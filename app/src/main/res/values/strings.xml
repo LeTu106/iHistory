@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">iHistory</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="play">Chơi</string>
+    <string name="stop">Thoát</string>
+
+    <string-array name="chronology1">
+        <item>Nhà Ngô (938-967)</item>
+        <item>Nhà Tiền Lê (980 - 1009)</item>
+        <item>Nhà Lý (1009 - 1225)</item>
+        <item>Nhà Trần (1225 - 1400)</item>
+        <item>Bắc thuộc lần 4 (1407- 1427)</item>
+        <item>Nhà Hậu Lê (1428 - 1789)</item>
+        <item>Nam Bắc triều</item>
+        <item>Trịnh Nguyễn phân tranh</item>
+        <item name="nha_nguyen">Nhà Nguyễn (1802 - 1945)</item>
+        <item>Chiến tranh chống Pháp</item>
+        <item>Chiến tranh chông Mỹ</item>
+        <item>Thống nhất đất nước sau 1975</item>
+
+    </string-array>
+    <string-array name="nha_nguyen">
+
+    </string-array>
+</resources>
