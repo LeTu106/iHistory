@@ -11,6 +11,7 @@
         android:id="@+id/btnPlay"
         android:text="@string/play"
         />
+
     <Button
 
         android:layout_width="300px"

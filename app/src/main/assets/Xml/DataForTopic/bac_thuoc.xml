@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <topic>
-    <war>Chiến dịch giải phóng Nghệ An</war>
-    <war>Trận Tốt Động-Chúc Động - 1426 - Khởi nghĩa Lam Sơn</war>
-    <war>Trận Chi Lăng - Xương Giang - 1427 - Khởi nghĩa Lam Sơn</war>
+    <war name="bac_thuoc_na" link="">Chiến dịch giải phóng Nghệ An</war>
+    <war name="bac_thuoc_td" link="">Trận Tốt Động-Chúc Động - 1426 - Khởi nghĩa Lam Sơn</war>
+    <war name="bac_thuoc_cl" link="">Trận Chi Lăng - Xương Giang - 1427 - Khởi nghĩa Lam Sơn</war>
 </topic>

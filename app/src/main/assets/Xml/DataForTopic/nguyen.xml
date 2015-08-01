@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <topic>
-    <war>Chiến dịch Nam Kỳ</war>
-    <war>Trận Đà Nẵng (1858-1859)</war>
-    <war>Trận Phước Thắng</war>
-    <war>Trận thành Gia Định, 1859</war>
-    <war>Trận Đại đồn Chí Hòa</war>
-    <war>Trận Định Tường (1861)</war>
-    <war>Trận Biên Hòa (1861-1862)</war>
-    <war>Trận Vĩnh Long</war>
-    <war>Trận Đà Nẵng (1859-1860)</war>
-    <war>Trận Vĩnh Long</war>
-    <war>Trận An Giang (1867)</war>
-    <war>Trận Hà Tiên (1867)</war>
-    <war>Biến cố Bắc Kỳ 1873</war>
-    <war>Trận thành Hà Nội (1873)</war>
-    <war>Trận Hưng Yên (1873)</war>
-    <war>Trận Phủ Lý (1873)</war>
-    <war>Trận Hải Dương (1873)</war>
-    <war>Trận Ninh Bình (1873)</war>
-    <war>Trận Nam Định (1873)</war>
-    <war>Trận Cầu Giấy (1873)</war>
-    <war>Chiến dịch Bắc Kỳ</war>
-    <war>Trận thành Hà Nội (1882)</war>
-    <war>Trận Hồng Gai (1883)</war>
-    <war>Trận Quảng Yên (1883)</war>
-    <war>Trận Nam Định (1883)</war>
-    <war>Trận Gia Quất-Gia Lâm</war>
-    <war>Trận Cầu Giấy, 1883</war>
-    <war>Trận Phủ Hoài</war>
-    <war>Trận Cửa Thuận An</war>
-    <war>Trận Sơn Tây (1883)</war>
-    <war>Trận Bắc Ninh (1884)</war>
-    <war>Trận Hưng Hóa (1884)</war>
-    <war>Trận Tuyên Quang (1884)</war>
-    <war>Trận Bắc Lệ</war>
-    <war>Trận Lạng Sơn (1885)</war>
-    <war>Trận Kinh thành Huế 1885</war>
+    <war name="nguyen_nk" link="">Chiến dịch Nam Kỳ</war>
+    <war name="nguyen_dn" link="">Trận Đà Nẵng (1858-1859)</war>
+    <war name="nguyen_pt" link="">Trận Phước Thắng</war>
+    <war name="nguyen_gd" link="">Trận thành Gia Định, 1859</war>
+    <war name="nguyen_ch" link="">Trận Đại đồn Chí Hòa</war>
+    <war name="nguyen_dt" link="">Trận Định Tường (1861)</war>
+    <war name="nguyen_bh" link="">Trận Biên Hòa (1861-1862)</war>
+    <war name="nguyen_vl" link="">Trận Vĩnh Long</war>
+    <war name="nguyen_dn1" link="">Trận Đà Nẵng (1859-1860)</war>
+    <war name="nguyen_vl1" link="">Trận Vĩnh Long</war>
+    <war name="nguyen_ag" link="">Trận An Giang (1867)</war>
+    <war name="nguyen_ht" link="">Trận Hà Tiên (1867)</war>
+    <war name="nguyen_bk" link="">Biến cố Bắc Kỳ 1873</war>
+    <war name="nguyen_hn" link="">Trận thành Hà Nội (1873)</war>
+    <war name="nguyen_hy" link="">Trận Hưng Yên (1873)</war>
+    <war name="nguyen_pl" link="">Trận Phủ Lý (1873)</war>
+    <war name="nguyen_hd" link="">Trận Hải Dương (1873)</war>
+    <war name="nguyen_nb" link="">Trận Ninh Bình (1873)</war>
+    <war name="nguyen_nd" link="">Trận Nam Định (1873)</war>
+    <war name="nguyen_cg" link="">Trận Cầu Giấy (1873)</war>
+    <war name="nguyen_bk1" link="">Chiến dịch Bắc Kỳ</war>
+    <war name="nguyen_hn1" link="">Trận thành Hà Nội (1882)</war>
+    <war name="nguyen_hg" link="">Trận Hồng Gai (1883)</war>
+    <war name="nguyen_qy" link="">Trận Quảng Yên (1883)</war>
+    <war name="nguyen_nd1" link="">Trận Nam Định (1883)</war>
+    <war name="nguyen_gq" link="">Trận Gia Quất-Gia Lâm</war>
+    <war name="nguyen_cg1" link="">Trận Cầu Giấy, 1883</war>
+    <war name="nguyen_ph" link="">Trận Phủ Hoài</war>
+    <war name="nguyen_cta" link="">Trận Cửa Thuận An</war>
+    <war name="nguyen_st" link="">Trận Sơn Tây (1883)</war>
+    <war name="nguyen_bn" link="">Trận Bắc Ninh (1884)</war>
+    <war name="nguyen_hh" link="">Trận Hưng Hóa (1884)</war>
+    <war name="nguyen_tq" link="">Trận Tuyên Quang (1884)</war>
+    <war name="nguyen_bl" link="">Trận Bắc Lệ</war>
+    <war name="nguyen_ls" link="">Trận Lạng Sơn (1885)</war>
+    <war name="nguyen_kth" link="">Trận Kinh thành Huế 1885</war>
 </topic>

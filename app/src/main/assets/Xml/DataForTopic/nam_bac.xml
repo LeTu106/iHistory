@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <topic>
-    <war>Trận Thăng Long (1551)</war>
-    <war>Trận Thuận Hóa (1554)</war>
-    <war>Trận sông Đại Lại (1555)</war>
-    <war>Trận sông Giao Thủy (1557)</war>
-    <war>Trận Tam Điệp (1589)</war>
-    <war>Trận Thăng Long (1592)</war>
+    <war name="nam_bac_tl" link="">Trận Thăng Long (1551)</war>
+    <war name="nam_bac_th" link="">Trận Thuận Hóa (1554)</war>
+    <war name="nam_bac_dl" link="">Trận sông Đại Lại (1555)</war>
+    <war name="nam_bac_gt" link="">Trận sông Giao Thủy (1557)</war>
+    <war name="nam_bac_td" link="">Trận Tam Điệp (1589)</war>
+    <war name="nam_bac_tl1" link="">Trận Thăng Long (1592)</war>
 </topic>

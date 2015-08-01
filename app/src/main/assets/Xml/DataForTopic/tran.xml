@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <topic>
-    <war>Trận Đông Bộ Đầu (1258)</war>
-    <war>Trận Thăng Long (1285)</war>
-    <war>Trận Hàm Từ - Tây Kết (1285)</war>
-    <war>Trận Chương Dương Độ (1285)</war>
-    <war>Trận Bạch Đằng, 1288</war>
+    <war name="tran_dbd" link="">Trận Đông Bộ Đầu (1258)</war>
+    <war name="tran_tl" link="">Trận Thăng Long (1285)</war>
+    <war name="tran_ht" link="">Trận Hàm Từ - Tây Kết (1285)</war>
+    <war name="tran_cdd" link="">Trận Chương Dương Độ (1285)</war>
+    <war name="tran_bd" link="">Trận Bạch Đằng, 1288</war>
 </topic>

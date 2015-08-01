@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Nhan\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\guava-jdk5-13.0-d75a170728b0acda49324613917b28265dd5c292.jar" />
+    </item>
+    <item
+        jar="F:\Android\iHistory\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\classes-2b90a9a586f2cb6c6ad3cd5f569e940973202fc9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nhan\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.20.0\d3e66209ae9e749b2d6833761e7885f60f285564\google-api-client-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\google-api-client-1.20.0-ad7899f452d34cbced6d285c2109da92907731d5.jar" />
+    </item>
+    <item
+        jar="F:\Android\iHistory\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\classes-728d58c4434c9b02de2af9e5169ddc9e788e865f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nhan\.gradle\caches\modules-2\files-2.1\com.google.apis\google-api-services-youtube\v3-rev143-1.20.0\b59bbca086ad6bb8b41eb49a87bb38ab883cd515\google-api-services-youtube-v3-rev143-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b59bbca086ad6bb8b41eb49a87bb38ab883cd515">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\google-api-services-youtube-v3-rev143-1.20.0-56beaa775d31e32996e6e611aea69705be76666d.jar" />
+    </item>
+    <item
+        jar="F:\Android\iHistory\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ccfbddf99584bddbaab62c0cf50dcd1c564e43">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi-aacca801488e7a285bbaee4fac1cf1418d843f13.jar" />
+    </item>
+    <item
+        jar="F:\Android\iHistory\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-55bc1d9f3e889cf14f8a1550b66c765c94bf81cc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nhan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-965853ce38626fe70afaba02c03a0ab88e26e3ac.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nhan\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.20.0\2408070b2abec043624d35b35e30450f1b663858\google-http-client-jackson2-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2408070b2abec043624d35b35e30450f1b663858">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.20.0-e4956aef5d26649b3ebaf02f4194f9da3935b74a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nhan\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.20.0\93d82db2bca534960253f43424b2ba9d7638b4d2\google-http-client-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\google-http-client-1.20.0-15d6487ff0dc385bc80b2fcfafe26e52f3e4304b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nhan\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.20.0\1d086ac5756475ddf451af2e2df6e288d18608ca\google-oauth-client-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.20.0-7442e5364ae3a77616b764fb298b8c2b441cc23a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nhan\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.3-78bbfa40e4015974d9ff0148fad98239f69de895.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nhan\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9-11d9777e8924f001bd1b96dbb9e68cd4914c6e62.jar" />
+    </item>
+
+</items>

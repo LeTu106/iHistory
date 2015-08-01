@@ -9,22 +9,28 @@ import org.w3c.dom.NodeList;
 
 import android.content.Context;
 
+import com.example.hackademics.ihistory.model.War;
+
 public class XmlDataHelper extends ContextHelper {
 
 	public XmlDataHelper(Context context) {
 		super(context);
 	}
 
-	public List<String> getWordsByTopic(String topicName) {
-		List<String> dsTopic = new ArrayList<String>();
+	public List<War> getWarsByTopic(String topicName) {
+		List<War> wars = new ArrayList<War>();
 		String path = "Xml/DataForTopic/" + topicName + ".xml";
 		NodeList NLdsTopic = XuLyXMLHelper.Doc_danh_sach(context, "war", path,
 				true);
 		for (int i = 0; i < NLdsTopic.getLength(); i++) {
-			Element word = (Element) NLdsTopic.item(i);
-			dsTopic.add(word.getTextContent());
+            Element w = (Element) NLdsTopic.item(i);
+            String name = w.getAttribute("name");
+            String link=w.getAttribute("link");
+            String warName=w.getTextContent();
+            War war = new War(name,link,warName);
+			wars.add(war);
 		}
-		return dsTopic;
+		return wars;
 	}
 
 	public HashMap<String,String> getTopicNames() {

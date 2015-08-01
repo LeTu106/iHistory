@@ -5,61 +5,6 @@
     <string name="action_settings">Settings</string>
     <string name="play">Chơi</string>
     <string name="stop">Thoát</string>
-
-    <string-array name="chronology1">
-        <item>Nhà Ngô (938-967)</item>
-        <item>Nhà Tiền Lê (980 - 1009)</item>
-        <item>Nhà Lý (1009 - 1225)</item>
-        <item>Nhà Trần (1225 - 1400)</item>
-        <item>Bắc thuộc lần 4 (1407- 1427)</item>
-        <item>Nhà Hậu Lê (1428 - 1789)</item>
-        <item>Nam Bắc triều</item>
-        <item>Trịnh Nguyễn phân tranh</item>
-        <item>Nhà Nguyễn (1802 - 1945)</item>
-        <item>Chiến tranh chống Pháp</item>
-        <item>Chiến tranh chông Mỹ</item>
-        <item>Thống nhất đất nước sau 1975</item>
-
-    </string-array>
-    <string-array name="n0">
-        <item>Trận Bạch Đằng 938</item>
-    </string-array>
-    <string-array name="n1">
-        <item>Trận Bạch Đằng 981</item>
-    </string-array>
-    <string-array name="n2">
-        <item>Chiến dịch đánh Tống 1075 - 1076</item>
-        <item>Trận Như Nguyệt 1077</item>
-    </string-array>
-    <string-array name="n3">
-        <item>Trận Đông Bộ Đầu (1258)</item>
-        <item>Trận Thăng Long (1285)</item>
-        <item>Trận Hàm Từ - Tây Kết (1285)</item>
-        <item>Trận Chương Dương Độ (1285)</item>
-        <item>Trận Bạch Đằng, 1288</item>
-    </string-array>
-    <string-array name="n4">
-        <item>Chiến dịch giải phóng Nghệ An</item>
-        <item>Trận Tốt Động-Chúc Động - 1426 - Khởi nghĩa Lam Sơn</item>
-        <item>Trận Chi Lăng - Xương Giang - 1427 - Khởi nghĩa Lam Sơn</item>
-    </string-array>
-    <string-array name="n5">
-        <item>Trận Thăng Long (1516)</item>
-    </string-array>
-    <string-array name="n6">
-        <item>Trận Thăng Long (1551)</item>
-        <item>Trận Thuận Hóa (1554)</item>
-        <item>Trận sông Đại Lại (1555)</item>
-        <item>Trận sông Giao Thủy (1557)</item>
-        <item>Trận Tam Điệp (1589)</item>
-        <item>Trận Thăng Long (1592)</item>
-    </string-array>
-    <string-array name="n7">
-        <item>Trận cảng Eo (1643)</item>
-        <item>Chiến dịch Lũy Thầy (1671 - 1672)</item>
-        <item>Chiến dịch diệt họ Mạc ở Cao Bằng (1677)</item>
-        <item>Trận Cẩm Sa (1775)</item>
-        <item>Trận Ngã bảy (1782)</item>
-        <item>Trận Rạch Gầm - Xoài Mút (1785)</item>
-    </string-array>
+    <string name="clip">Xem clip</string>
+    <string name="hoi">Chơi</string>
 </resources>
