@@ -11,6 +11,12 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
+import com.example.hackademics.ihistory.helper.XmlDataHelper;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
 /**
  * Created by Nhan on 01/08/2015.
  */
@@ -20,22 +26,23 @@ public class Chronology extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.chronology);
         LinearLayout li=(LinearLayout)findViewById(R.id.Layout1);
-
-        Resources res = getResources();
-        String[] chro = res.getStringArray(R.array.chronology1);
-        for(int m=0;m<chro.length;m++)  //hien cac button cac trieu dai
+        XmlDataHelper xmlHelper=new XmlDataHelper(getApplicationContext());
+        HashMap<String,String> chros = xmlHelper.getTopicNames();
+        Iterator i = chros.entrySet().iterator();
+        while(i.hasNext())  //hien cac button cac trieu dai
         {
+            Map.Entry chro = (Map.Entry)i.next();
             Button btn=new Button(this);
-            btn.setText(chro[m]);
+            btn.setText(chro.getValue().toString());
             btn.setLayoutParams(new AbsListView.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT,
                     ViewGroup.LayoutParams.WRAP_CONTENT));
-            final String n=chro[m];
+            final String n=chro.getKey().toString();
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     Intent in=new Intent(Chronology.this,Wars.class);
-                    in.putExtra("ten",n);
+                    in.putExtra("name",n);
                     startActivity(in);
                 }
             });
