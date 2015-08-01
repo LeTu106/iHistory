@@ -28,29 +28,28 @@ protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         /** attaching layout xml **/
         setContentView(R.layout.clip);
-
         /** Initializing YouTube player view **/
         YouTubePlayerView youTubePlayerView = (YouTubePlayerView) findViewById(R.id.youtube);
         youTubePlayerView.initialize(API_KEY, this);
         }
 @Override
 public void onInitializationFailure(Provider provider, YouTubeInitializationResult result) {
-        Toast.makeText(this, "Failured to Initialize!", Toast.LENGTH_LONG).show();
-        }
+    Toast.makeText(this, "Failured to Initialize!", Toast.LENGTH_LONG).show();
+}
 
 @Override
 public void onInitializationSuccess(Provider provider, YouTubePlayer player, boolean wasRestored) {
         /** add listeners to YouTubePlayer instance **/
-        player.setPlayerStateChangeListener(playerStateChangeListener);
-        player.setPlaybackEventListener(playbackEventListener);
+    player.setPlayerStateChangeListener(playerStateChangeListener);
+    player.setPlaybackEventListener(playbackEventListener);
     Intent in =getIntent();
     String VIDEO_ID=in.getExtras().getString("link");
     Log.d("error: ",VIDEO_ID);
-        /** Start buffering **/
-        if (!wasRestored) {
-        player.cueVideo(VIDEO_ID);
-        }
-        }
+    /** Start buffering **/
+    if (!wasRestored) {
+    player.cueVideo(VIDEO_ID);
+    }
+}
 
 private PlaybackEventListener playbackEventListener = new PlaybackEventListener() {
 

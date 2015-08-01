@@ -40,7 +40,7 @@
         jar="F:\Android\iHistory\app\libs\YouTubeAndroidPlayerApi.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="29ccfbddf99584bddbaab62c0cf50dcd1c564e43">
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
         <dex dex="F:\Android\iHistory\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi-aacca801488e7a285bbaee4fac1cf1418d843f13.jar" />
     </item>
     <item
