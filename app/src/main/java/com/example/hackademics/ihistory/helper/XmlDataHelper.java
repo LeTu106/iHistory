@@ -11,6 +11,7 @@ import org.w3c.dom.NodeList;
 import android.content.Context;
 
 import com.example.hackademics.ihistory.model.Question;
+import com.example.hackademics.ihistory.model.Topic;
 import com.example.hackademics.ihistory.model.War;
 
 public class XmlDataHelper extends ContextHelper {
@@ -59,15 +60,15 @@ public class XmlDataHelper extends ContextHelper {
 		return wars;
 	}
 
-	public HashMap<String,String> getTopicNames() {
-        HashMap<String,String>  dsTopic = new HashMap<String,String>();
+	public List<Topic> getTopicNames() {
+        List<Topic> dsTopic = new ArrayList<>();
 		String path = "Xml/Topic/ListTopic.xml";
 		NodeList NLdsTopic = XuLyXMLHelper.Doc_danh_sach(context, "topic",
 				path, true);
 		for (int i = 0; i < NLdsTopic.getLength(); i++) {
 			Element war = (Element) NLdsTopic.item(i);
-            dsTopic.put(war.getAttribute("name"),war.getTextContent());
-
+            Topic topic = new Topic(war.getAttribute("name"),war.getTextContent());
+            dsTopic.add(topic);
 		}
 		return dsTopic;
 	}

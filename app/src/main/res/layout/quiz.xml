@@ -17,7 +17,8 @@
             android:gravity="center"
             android:layout_weight="1"
             android:text="0"
-            android:id="@+id/score1"/>
+            android:id="@+id/score1"
+            android:background="@android:color/holo_blue_dark"/>
         <Button
             android:gravity="center"
             android:layout_weight="1"
@@ -27,7 +28,8 @@
             android:gravity="center"
             android:layout_weight="1"
             android:text="0"
-            android:id="@+id/score2"/>
+            android:id="@+id/score2"
+            android:background="@android:color/holo_red_light"/>
     </TableRow>
     <TableRow>
         <TextView android:id="@+id/qs"

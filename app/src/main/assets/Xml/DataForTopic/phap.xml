@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <topic>
-    <war name="phap_VB" link="">Chiến dịch Việt Bắc 1947</war>
-    <war name="phap_BG" link="">Chiến dịch Biên giới - 1950</war>
-    <war name="phap_THD" link="">Chiến dịch Trần Hưng Đạo 1951</war>
-    <war name="phap_HHT" link="">Chiến dịch Hoàng Hoa Thám 1951</war>
-    <war name="phap_QT" link="">Chiến dịch Quang Trung 1951</war>
-    <war name="phap_HB" link="">Chiến dịch Hòa Bình 1951</war>
-    <war name="phap_TB" link="">Chiến dịch Tây Bắc 1952</war>
-    <war name="phap_TL" link="">Chiến dịch Thượng Lào 1953</war>
-    <war name="phap_DBP" link="">Chiến dịch Điện Biên Phủ - 1954</war>
+    <war name="ngo_bd" link="6tGzvNWxm0U">Chiến dịch Việt Bắc 1947</war>
+    <war name="ngo_bd" link="6tGzvNWxm0U">Chiến dịch Biên giới - 1950</war>
+    <war name="ngo_bd" link="6tGzvNWxm0U">Chiến dịch Trần Hưng Đạo 1951</war>
+    <war name="ngo_bd" link="6tGzvNWxm0U">Chiến dịch Hoàng Hoa Thám 1951</war>
+    <war name="ngo_bd" link="6tGzvNWxm0U">Chiến dịch Quang Trung 1951</war>
+    <war name="ngo_bd" link="6tGzvNWxm0U">Chiến dịch Hòa Bình 1951</war>
+    <war name="ngo_bd" link="6tGzvNWxm0U">Chiến dịch Tây Bắc 1952</war>
+    <war name="ngo_bd" link="6tGzvNWxm0U">Chiến dịch Thượng Lào 1953</war>
+    <war name="ngo_bd" link="6tGzvNWxm0U">Chiến dịch Điện Biên Phủ - 1954</war>
 </topic>

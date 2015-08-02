@@ -67,12 +67,12 @@ public class WarActivity extends Activity {
     }
     @Override
     protected Dialog onCreateDialog(int id) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this, AlertDialog.THEME_HOLO_DARK);
         final int vt = id;
         //Toast.makeText(getApplicationContext(),vt+"",Toast.LENGTH_LONG).show();
         builder.setTitle("Lựa chọn:");
         builder.setMessage("bạn muốn xem clip hay chơi?");
-        builder.setCancelable(false);
+        builder.setCancelable(true);
         builder.setPositiveButton("Xem clip", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {

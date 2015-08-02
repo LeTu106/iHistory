@@ -12,9 +12,11 @@ import android.widget.LinearLayout;
 
 import com.example.hackademics.ihistory.R;
 import com.example.hackademics.ihistory.helper.XmlDataHelper;
+import com.example.hackademics.ihistory.model.Topic;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -27,24 +29,24 @@ public class ChronologyActivity extends Activity {
         setContentView(R.layout.chronology);
         LinearLayout li=(LinearLayout)findViewById(R.id.Layout1);
         XmlDataHelper xmlHelper=new XmlDataHelper(getApplicationContext());
-        HashMap<String,String> chros = xmlHelper.getTopicNames();
-        Iterator i = chros.entrySet().iterator();
-        while(i.hasNext())  //hien cac button cac trieu dai
+        List<Topic> chros = xmlHelper.getTopicNames();
+
+        for(int i = 0; i < chros.size(); i++)  //hien cac button cac trieu dai
         {
-            Map.Entry chro = (Map.Entry)i.next();
+            Topic chro = chros.get(i);
             Button btn=new Button(this);
-            btn.setText(chro.getValue().toString());
+            btn.setText(chro.getValue());
             btn.setBackgroundResource(R.drawable.btnmenu);
             btn.setTextColor(getResources().getColor(R.color.ye));
             btn.setLayoutParams(new AbsListView.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT,
                     ViewGroup.LayoutParams.WRAP_CONTENT));
-            final String n=chro.getKey().toString();
+            final String name =chro.getName();
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     Intent in=new Intent(ChronologyActivity.this,WarActivity.class);
-                    in.putExtra("name",n);
+                    in.putExtra("name",name);
                     startActivity(in);
                 }
             });
