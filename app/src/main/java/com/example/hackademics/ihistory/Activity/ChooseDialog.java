@@ -32,5 +32,13 @@ public class ChooseDialog extends Activity {
             }
         });
         Button btnChoi=(Button)findViewById(R.id.btnhoi);
+        btnChoi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(ChooseDialog.this,QuizActivity.class);
+                intent.putExtra("name",name);
+                startActivity(intent);
+            }
+        });
     }
 }

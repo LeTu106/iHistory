@@ -21,6 +21,7 @@
         <activity android:name=".Activity.ChooseDialog"
             android:theme="@android:style/Theme.Dialog"/>
         <activity android:name=".Activity.ClipActivity"/>
+        <activity android:name=".Activity.QuizActivity"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

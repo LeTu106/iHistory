@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<war number="8">
+    <question 
+        name = "Cuộc chiến diễn ra vào năm nào?"
+        answer="b">
+        <answer>A. 937</answer>
+        <answer>B. 938</answer>
+        <answer>C. 939</answer>
+        <answer>D. 940</answer>
+    </question>
+    <question 
+        name = "Cuộc chiến diễn ra trên sông nào?"
+        answer="a">
+        <answer>A. Bạch Đằng</answer>
+        <answer>B. Thái Bình</answer>
+        <answer>C. Đuống</answer>
+        <answer>D. Thao</answer>
+    </question>
+    <question 
+        name = "Ai sát hại Dương Đình Nghệ tại thành Đại La?"
+        answer="c">
+        <answer>A. Ngô Quyền</answer>
+        <answer>B. Hoằng Tháo</answer>
+        <answer>C. Kiều Công Tiễn</answer>
+        <answer>D. Lưu Nguyễn</answer>
+    </question>
+    <question 
+        name = "Tướng quân địch là ai?"
+        answer="b">
+        <answer>A. Ngô Quyền</answer>
+        <answer>B. Hoằng Tháo</answer>
+        <answer>C. Kiều Công Tiễn</answer>
+        <answer>D. Lưu Nguyễn</answer>
+    </question>
+    <question 
+        name = "Nước xâm lược nước ta là gì?"
+        answer="d">
+        <answer>A. Tần</answer>
+        <answer>B. Triệu</answer>
+        <answer>C. Tống</answer>
+        <answer>D. Nam Hán</answer>
+    </question>
+    <question 
+        name = "Địch xâm lược nước ta với bao nhiêu quân?"
+        answer="a">
+        <answer>A. 2 vạn</answer>
+        <answer>B. 3 vạn</answer>
+        <answer>C. 4 vạn</answer>
+        <answer>D. 5 vạn</answer>
+    </question>
+    <question 
+        name = "Người đứng đầu quân ta chống lại quân địch là ai?"
+        answer="a">
+        <answer>A. Ngô Quyền</answer>
+        <answer>B. Hoằng Tháo</answer>
+        <answer>C. Kiều Công Tiễn</answer>
+        <answer>D. Lưu Nguyễn</answer>
+    </question>
+    <question 
+        name = "Ngô Quyền lên ngôi vua vào năm nào?"
+        answer="c">
+        <answer>A. 927</answer>
+        <answer>B. 928</answer>
+        <answer>C. 929</answer>
+        <answer>D. 930</answer>
+    </question>
+</war>
