@@ -1,83 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <TableLayout
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:background="@drawable/quizbg"
+    android:paddingTop="70dp"
+    android:paddingBottom="70dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <Button
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="0"
+            android:id="@+id/score1"/>
+        <Button
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="0"
+            android:id="@+id/time"/>
+        <Button
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="0"
+            android:id="@+id/score2"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:id="@+id/qs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_column="0"
+            android:textColor="@color/re"
+            android:text="no thing wesges tter drtdrt  drgdr  gdrgdr  drdrh"
+            android:textIsSelectable="false"
+            android:textSize="20dp">
+        </TextView>
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TableRow>
-            <Button android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/a1"
                 android:layout_weight="1"
-                android:text="0"
-                android:id="@+id/score1"/>
-            <Button android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:text="no thing"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/a2"
                 android:layout_weight="1"
-                android:text="0"
-                android:id="@+id/score2"/>
-        </TableRow>
-        <TableRow>
-            <TextView android:id="@+id/qs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="no thing">
-            </TextView>
-        </TableRow>
-        <TableRow>
-            <LinearLayout android:layout_weight="1"
-                android:orientation="vertical">
-                <Button
-                    android:id="@+id/a1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="no thing"/>
-                <Button
-                    android:id="@+id/b1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="no thing"/>
-
-                <Button
-                    android:id="@+id/c1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="no thing"/>
-
-                <Button
-                    android:id="@+id/d1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="no thing"/>
-
-            </LinearLayout>
-            <LinearLayout android:layout_weight="1"
-                android:orientation="vertical"
-                >
-                <Button
-                    android:id="@+id/a2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="no thing 1"/>
-                <Button
-                    android:id="@+id/b2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="no thing 1"/>
-
-                <Button
-                    android:id="@+id/c2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="no thing 3"/>
-
-                <Button
-                    android:id="@+id/d2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="no thing 4"/>
-
-            </LinearLayout>
-        </TableRow>
-        </TableLayout>
-</LinearLayout>
+                android:text="no thing"
+                android:gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/b1"
+            android:layout_weight="1"
+            android:text="no thing"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/b2"
+            android:layout_weight="1"
+            android:text="no thing"
+            android:gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/c1"
+            android:layout_weight="1"
+            android:text="no thing"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/c2"
+            android:layout_weight="1"
+            android:text="no thing"
+            android:gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/d1"
+            android:layout_weight="1"
+            android:text="no thing"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/d2"
+            android:layout_weight="1"
+            android:text="no thing"
+            android:gravity="center"/>
+    </TableRow>
+</TableLayout>

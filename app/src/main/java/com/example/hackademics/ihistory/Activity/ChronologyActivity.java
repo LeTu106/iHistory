@@ -2,6 +2,7 @@ package com.example.hackademics.ihistory.Activity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,6 +34,8 @@ public class ChronologyActivity extends Activity {
             Map.Entry chro = (Map.Entry)i.next();
             Button btn=new Button(this);
             btn.setText(chro.getValue().toString());
+            btn.setBackgroundResource(R.drawable.btnmenu);
+            btn.setTextColor(getResources().getColor(R.color.ye));
             btn.setLayoutParams(new AbsListView.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT,
                     ViewGroup.LayoutParams.WRAP_CONTENT));

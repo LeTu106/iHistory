@@ -1,6 +1,9 @@
 package com.example.hackademics.ihistory.Activity;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +19,10 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.logging.Handler;
+import java.util.logging.LogRecord;
 
 /**
  * Created by Nhan on 02/08/2015.
@@ -23,9 +30,12 @@ import java.util.Random;
 public class QuizActivity extends Activity {
     int score1=0;
     int score2=0;
+    int numberQuestion = 0;
+    int dem = 0;
     Question current_qs;
     List<Question> questionList;
     TextView ques;
+    Boolean flag=true;
     Button s1;
     Button s2;
     Button a1;
@@ -36,10 +46,11 @@ public class QuizActivity extends Activity {
     Button c2;
     Button d1;
     Button d2;
-
+    int time=30;
     Random r;
+    String chuoi;
     int random;
-
+    Button btnTime;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,16 +69,37 @@ public class QuizActivity extends Activity {
         d1=(Button)findViewById(R.id.d1);
         d2=(Button)findViewById(R.id.d2);
         r = new Random();
+        btnTime=(Button)findViewById(R.id.time);
+        final android.os.Handler handler=new android.os.Handler();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while(flag){
+                    try{
+                        Thread.sleep(1000);
+                        handler.post(new Runnable() {
+                            @Override
+                            public void run() {
+                                if(--time<=0){
+                                    time=30;
+                                    UpdateQuestion();
+                                }else {
+                                    btnTime.setText(time +"");
+                                }
+                            }
+                        });
+                    }catch(Exception e){
 
+                    }
+                }
+            }
+        }).start();
         Intent in = getIntent();
         String name = in.getExtras().getString("name");
         XmlDataHelper xml = new XmlDataHelper(getApplicationContext());
         questionList = xml.getQuestionsByWar(name);
-
-
-        random = r.nextInt(questionList.size());
-        current_qs = questionList.get(random);
-        questionList.remove(random);
+        numberQuestion = questionList.size();
+        time=30;
         UpdateQuestion();
 
         a1.setOnClickListener(new View.OnClickListener() {
@@ -125,7 +157,6 @@ public class QuizActivity extends Activity {
                 ClickAnswer("d", 2);
             }
         });
-
     }
 
     private void ClickAnswer(String namebtn, int player){
@@ -140,27 +171,58 @@ public class QuizActivity extends Activity {
             else
                 score2--;
         }
-
-        random = r.nextInt(questionList.size());
-        current_qs = questionList.get(random);
-
-        Toast.makeText(getApplicationContext(), "Đáp án:" + current_qs.getAnswer(), Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Đáp án:" + dem + ". " + current_qs.getAnswer(), Toast.LENGTH_SHORT).show();
         s1.setText(Integer.toString(score1));
         s2.setText(Integer.toString(score2));
-        questionList.remove(random);
+        time=30;
         UpdateQuestion();
     }
 
     private void UpdateQuestion(){
-        ques.setText(current_qs.getName());
-        a1.setText(current_qs.getAnswers().get(0));
-        a2.setText(current_qs.getAnswers().get(0));
-        b1.setText(current_qs.getAnswers().get(1));
-        b2.setText(current_qs.getAnswers().get(1));
-        c1.setText(current_qs.getAnswers().get(2));
-        c2.setText(current_qs.getAnswers().get(2));
-        d1.setText(current_qs.getAnswers().get(3));
-        d2.setText(current_qs.getAnswers().get(3));
+        if(questionList.size()>0) {
+            dem++;
+            random = r.nextInt(questionList.size());
+            current_qs = questionList.get(random);
+            questionList.remove(random);
+            btnTime.setText(time+"");
+            ques.setText(dem + "/" + numberQuestion + ". " + current_qs.getName());
+            a1.setText(current_qs.getAnswers().get(0).toString().trim());
+            a2.setText(current_qs.getAnswers().get(0).toString().trim());
+            b1.setText(current_qs.getAnswers().get(1).toString().trim());
+            b2.setText(current_qs.getAnswers().get(1).toString().trim());
+            c1.setText(current_qs.getAnswers().get(2).toString().trim());
+            c2.setText(current_qs.getAnswers().get(2).toString().trim());
+            d1.setText(current_qs.getAnswers().get(3).toString().trim());
+            d2.setText(current_qs.getAnswers().get(3).toString().trim());
+        }
+        else {
+            chuoi = "A đã thắng";
+            if (score1 < score2)
+                chuoi = "B đã thắng";
+            else if (score1 == score2)
+                chuoi = "A và B hòa";
+            showDialog(0);
+        }
     }
 
+    @Override
+    protected Dialog onCreateDialog(int id) {
+        AlertDialog.Builder builder=new AlertDialog.Builder(this);
+
+        switch (id) {
+            case 0:
+                builder.setTitle("Kết quả");
+                builder.setMessage(chuoi);
+                builder.setCancelable(false);
+                builder.setPositiveButton("OK",new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        flag=false;
+                        QuizActivity.this.finish();
+                    }
+                });
+                return builder.create();
+        }
+        return super.onCreateDialog(id);
+    }
 }

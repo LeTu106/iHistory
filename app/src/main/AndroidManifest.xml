@@ -18,8 +18,7 @@
         </activity>
         <activity android:name=".Activity.ChronologyActivity"/>
         <activity android:name=".Activity.WarActivity"/>
-        <activity android:name=".Activity.ChooseDialog"
-            android:theme="@android:style/Theme.Dialog"/>
+
         <activity android:name=".Activity.ClipActivity"/>
         <activity android:name=".Activity.QuizActivity"/>
     </application>
